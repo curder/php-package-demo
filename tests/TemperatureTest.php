@@ -20,4 +20,12 @@ class TemperatureTest extends TestCase
 
         self::assertEquals(212, $fahrenheit);
     }
+
+    /** @test */
+    public function it_can_covert_celsius_to_kelvin(): void
+    {
+        $kelvin = Temperature::fromCelsius(100)->toKelvin();
+
+        self::assertEquals(373.15, $kelvin);
+    }
 }

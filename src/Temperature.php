@@ -2,6 +2,8 @@
 
 namespace Curder\PhpPackageDemo;
 
+use phpDocumentor\Reflection\Types\This;
+
 /**
  * Class Weight
  *
@@ -40,5 +42,13 @@ class Temperature
     public function toFahrenheit(): float
     {
         return ($this->celsius * 1.8) + 32;
+    }
+
+    /**
+     * @return float
+     */
+    public function toKelvin(): float
+    {
+        return $this->celsius + 273.15;
     }
 }

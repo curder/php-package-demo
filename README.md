@@ -9,6 +9,7 @@ This is a php package is a demo for study.
 
 - [Kilograms to Pounds (kg to lbs)](https://www.metric-conversions.org/weight/kilograms-to-pounds.htm)
 - [Celsius to Fahrenheit (°C to °F)](https://www.metric-conversions.org/temperature/celsius-to-fahrenheit.htm)
+- [Celsius to Kelvin](https://www.metric-conversions.org/temperature/celsius-to-kelvin.htm)
 
 ## Installation
 
@@ -26,7 +27,9 @@ use Curder\PhpPackageDemo\Temperature;
 
 Weight::fromKilograms(100)->toLabs(); // 220.4623;
 
-Temperature::fromCelsius(100)->toFahrenheit(); // 212
+Temperature::fromCelsius(100)->toFahrenheit(); // 212;
+
+Temperature::fromCelsius(100)->toKelvin(); // 373.15; 
 ```
 
 ## Testing
