@@ -2,9 +2,17 @@
 
 namespace Curder\PhpPackageDemo;
 
+/**
+ * Class Weight
+ *
+ * @package Curder\PhpPackageDemo
+ */
 class Weight
 {
-    private float $kilograms;
+    /**
+     * @var float
+     */
+    private  $kilograms;
 
     /**
      * Weight constructor.
