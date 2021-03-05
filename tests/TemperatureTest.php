@@ -1,8 +1,8 @@
 <?php
 namespace Curder\PhpPackageDemo\Tests;
 
-use PHPUnit\Framework\TestCase;
 use Curder\PhpPackageDemo\Temperature;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Class WeightTest

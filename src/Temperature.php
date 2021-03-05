@@ -2,8 +2,6 @@
 
 namespace Curder\PhpPackageDemo;
 
-use phpDocumentor\Reflection\Types\This;
-
 /**
  * Class Weight
  *
@@ -35,11 +33,12 @@ class Temperature
     {
         return new static($celsius);
     }
+
     /**
      * @return float
      */
     public function toFahrenheit(): float
     {
-        return ($this->celsius* 1.8) + 32;
+        return ($this->celsius * 1.8) + 32;
     }
 }
