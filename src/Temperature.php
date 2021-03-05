@@ -2,8 +2,6 @@
 
 namespace Curder\PhpPackageDemo;
 
-use phpDocumentor\Reflection\Types\This;
-
 /**
  * Class Weight
  *
