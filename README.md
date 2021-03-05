@@ -5,7 +5,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/curder/php-package-demo.svg?style=flat-square)](https://packagist.org/packages/curder/php-package-demo)
 
 
-This is a php pacakge demo with study.
+This is a php package is a demo for study.
 
 - [【Kilograms to Pounds (kg to lbs)】](https://www.metric-conversions.org/weight/kilograms-to-pounds.htm)
 
