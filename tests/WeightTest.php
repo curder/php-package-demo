@@ -9,6 +9,8 @@ use PHPUnit\Framework\TestCase;
  * Class WeightTest
  *
  * @package Curder\PhpPackageDemo\Tests
+ *
+ * @see https://www.metric-conversions.org/weight/kilograms-to-pounds.htm
  */
 class WeightTest extends TestCase
 {

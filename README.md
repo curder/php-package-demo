@@ -14,7 +14,7 @@ This is a php package is a demo for study.
 
 You can install the package via composer:
 
-```bash
+```bash 
 composer require curder/php-package-demo
 ```
 
