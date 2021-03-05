@@ -2,6 +2,10 @@
 
 All notable changes to `php-package-demo` will be documented in this file.
 
+## 1.3.1 - 2021-03-06
+
+- Fix release version
+
 ## 1.3.0 - 2021-03-06
 
 - Add weight conversion from Pounds to Kilograms
