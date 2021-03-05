@@ -22,8 +22,11 @@ composer require curder/php-package-demo
 
 ```php
 use Curder\PhpPackageDemo\Weight;
+use Curder\PhpPackageDemo\Temperature;
 
 Weight::fromKilograms(100)->toLabs(); // 220.4623;
+
+Temperature::forCelsius(100)->toFahrenheit(); // 212
 ```
 
 ## Testing
