@@ -12,16 +12,16 @@ class Weight
     /**
      * @var float
      */
-    private $kilograms;
+    private $value;
 
     /**
      * Weight constructor.
      *
-     * @param  float  $kilograms
+     * @param  float  $value
      */
-    public function __construct(float $kilograms)
+    public function __construct(float $value)
     {
-        $this->kilograms = $kilograms;
+        $this->value = $value;
     }
 
     /**
@@ -35,10 +35,28 @@ class Weight
     }
 
     /**
+     * @param  float  $labs
+     *
+     * @return static
+     */
+    public static function fromLabs(float $labs): self
+    {
+        return new static($labs);
+    }
+
+    /**
+     * @return float
+     */
+    public function toKilograms(): float
+    {
+        return round($this->value / 2.204623, 5);
+    }
+
+    /**
      * @return float
      */
     public function toLabs() : float
     {
-        return $this->kilograms * 2.204623;
+        return $this->value * 2.204623;
     }
 }

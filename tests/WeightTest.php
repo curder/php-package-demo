@@ -21,4 +21,12 @@ class WeightTest extends TestCase
 
         self::assertEquals(220.4623, $labs);
     }
+
+    /** @test */
+    public function it_can_covert_labs_to_kilograms(): void
+    {
+        $kilograms = Weight::fromLabs(100)->toKilograms();
+
+        self::assertEquals(45.35923, $kilograms);
+    }
 }
