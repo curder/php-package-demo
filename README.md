@@ -21,8 +21,9 @@ composer require curder/php-package-demo
 ## Usage
 
 ```php
-$skeleton = new Curder\PhpPackageDemo();
-echo $skeleton->echoPhrase('Hello, Curder!');
+use Curder\PhpPackageDemo\Weight;
+
+Weight::fromKilograms(100)->toLabs(); // 220.4623;
 ```
 
 ## Testing
