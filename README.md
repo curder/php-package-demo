@@ -5,7 +5,9 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/curder/php-package-demo.svg?style=flat-square)](https://packagist.org/packages/curder/php-package-demo)
 
 
-This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
+This is a php pacakge demo with study.
+
+- [【Kilograms to Pounds (kg to lbs)】](https://www.metric-conversions.org/weight/kilograms-to-pounds.htm)
 
 
 ## Installation
