@@ -12,7 +12,7 @@ class Weight
     /**
      * @var float
      */
-    private  $kilograms;
+    private $kilograms;
 
     /**
      * Weight constructor.
