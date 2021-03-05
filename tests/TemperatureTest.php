@@ -16,7 +16,7 @@ class TemperatureTest extends TestCase
     /** @test */
     public function it_can_covert_celsius_to_fahrenheit() : void
     {
-        $fahrenheit = Temperature::forCelsius(100)->toFahrenheit();
+        $fahrenheit = Temperature::fromCelsius(100)->toFahrenheit();
 
         self::assertEquals(212, $fahrenheit);
     }
