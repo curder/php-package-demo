@@ -7,8 +7,8 @@
 
 This is a php package is a demo for study.
 
-- [【Kilograms to Pounds (kg to lbs)】](https://www.metric-conversions.org/weight/kilograms-to-pounds.htm)
-
+- [Kilograms to Pounds (kg to lbs)](https://www.metric-conversions.org/weight/kilograms-to-pounds.htm)
+- [Celsius to Fahrenheit (°C to °F)](https://www.metric-conversions.org/temperature/celsius-to-fahrenheit.htm)
 
 ## Installation
 
