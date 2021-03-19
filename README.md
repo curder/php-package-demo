@@ -14,11 +14,18 @@ This is a php package is a demo for study.
 - [Celsius to Fahrenheit (°C to °F)](https://www.metric-conversions.org/temperature/celsius-to-fahrenheit.htm)
 - [Celsius to Kelvin](https://www.metric-conversions.org/temperature/celsius-to-kelvin.htm)
 
+This is a php package, and it is a demo for study.
+
+- laravel命令行测试 [curder/laravel-console-command-test-demo](https://github.com/curder/laravel-console-command-test-demo)
+- laravel 拓展包 [curder/laravel-package-demo](https://github.com/curder/laravel-package-demo)
+
+
+
 ## Installation
 
 You can install the package via composer:
 
-```bash 
+```bash
 composer require curder/php-package-demo
 ```
 
@@ -32,7 +39,7 @@ Weight::fromKilograms(100)->toLabs(); // 220.4623;
 Weight::fromLabs(100)->toKilograms(); // 45.35923
 
 Temperature::fromCelsius(100)->toFahrenheit(); // 212;
-Temperature::fromCelsius(100)->toKelvin(); // 373.15; 
+Temperature::fromCelsius(100)->toKelvin(); // 373.15;
 ```
 
 ## Testing
